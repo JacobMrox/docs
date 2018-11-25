@@ -22,11 +22,11 @@ To update your local copy from the repository run git pull
 
 ### Building RetroArch separately
 
-First, you need to compile 'Salamander'. To compile Salamander (for PlayStation3) run:
+First, you need to compile 'Salamander'. To compile Salamander (for PS Vita) run:
 
     make -f Makefile.vita.salamander
 
-Second, to compile RetroArch (for PlayStation3) run:
+Second, to compile RetroArch (for PS Vita) run:
 
     make -f Makefile.griffin platform=vita
 
@@ -65,7 +65,7 @@ The easiest way to fetch all the cores is to use libretro-super. Run
 
 ### Building Cores
 
-The easiest way to build all the cores (for PlayStation3) is to use libretro-super. Run
+The easiest way to build all the cores (for PS Vita) is to use libretro-super. Run
 
     ./libretro-build-vita.sh
 
